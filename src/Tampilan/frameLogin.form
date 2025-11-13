@@ -94,7 +94,7 @@
     <Component class="javax.swing.JLabel" name="Background">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\redmi\OneDrive\Documents\Pictures\Login.png"/>
+          <Image iconType="2" name="C:\Users\redmi\OneDrive\Pictures\1.png"/>
         </Property>
       </Properties>
       <Constraints>

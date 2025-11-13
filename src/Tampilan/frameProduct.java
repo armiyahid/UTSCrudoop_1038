@@ -138,7 +138,7 @@ public class frameProduct extends javax.swing.JFrame {
                 BtambahActionPerformed(evt);
             }
         });
-        jPanel1.add(Btambah, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 60, -1, 30));
+        jPanel1.add(Btambah, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 60, -1, 30));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -218,7 +218,7 @@ public class frameProduct extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(Tabelproduct);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(271, 94, 400, 260));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 94, 390, 260));
 
         Bubah.setBackground(new java.awt.Color(0, 51, 255));
         Bubah.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -229,7 +229,7 @@ public class frameProduct extends javax.swing.JFrame {
                 BubahActionPerformed(evt);
             }
         });
-        jPanel1.add(Bubah, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 60, -1, 30));
+        jPanel1.add(Bubah, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 60, -1, 30));
 
         Bhapus.setBackground(new java.awt.Color(0, 51, 255));
         Bhapus.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -240,7 +240,7 @@ public class frameProduct extends javax.swing.JFrame {
                 BhapusActionPerformed(evt);
             }
         });
-        jPanel1.add(Bhapus, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 60, -1, 30));
+        jPanel1.add(Bhapus, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 60, -1, 30));
 
         Breset.setBackground(new java.awt.Color(0, 51, 255));
         Breset.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -251,7 +251,7 @@ public class frameProduct extends javax.swing.JFrame {
                 BresetActionPerformed(evt);
             }
         });
-        jPanel1.add(Breset, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 60, -1, 30));
+        jPanel1.add(Breset, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 60, -1, 30));
 
         Bkembali.setBackground(new java.awt.Color(0, 51, 255));
         Bkembali.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -264,7 +264,7 @@ public class frameProduct extends javax.swing.JFrame {
         });
         jPanel1.add(Bkembali, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 60, 80, 30));
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\redmi\\OneDrive\\Documents\\Pictures\\User.png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\redmi\\OneDrive\\Pictures\\5.png")); // NOI18N
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));

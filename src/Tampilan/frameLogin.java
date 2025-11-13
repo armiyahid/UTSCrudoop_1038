@@ -64,7 +64,7 @@ public class frameLogin extends javax.swing.JFrame {
         jLabel2.setText("Username");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 160, -1, -1));
 
-        Background.setIcon(new javax.swing.ImageIcon("C:\\Users\\redmi\\OneDrive\\Documents\\Pictures\\Login.png")); // NOI18N
+        Background.setIcon(new javax.swing.ImageIcon("C:\\Users\\redmi\\OneDrive\\Pictures\\1.png")); // NOI18N
         getContentPane().add(Background, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
 
         pack();

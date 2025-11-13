@@ -192,7 +192,7 @@ void reset(){
         });
         jPanel1.add(Tid, new org.netbeans.lib.awtextra.AbsoluteConstraints(35, 68, 245, 30));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\redmi\\OneDrive\\Documents\\Pictures\\Producttt.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\redmi\\OneDrive\\Pictures\\4.png")); // NOI18N
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));

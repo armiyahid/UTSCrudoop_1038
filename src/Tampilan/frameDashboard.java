@@ -4,7 +4,7 @@
  */
 package Tampilan;
 import Kelas.Sesion;
-import  Kelas.User;
+import Kelas.User;
 /**
  *
  * @author Hiddd
@@ -34,18 +34,18 @@ public class frameDashboard extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel4 = new javax.swing.JLabel();
-        email = new javax.swing.JTextField();
-        nama = new javax.swing.JTextField();
-        username = new javax.swing.JTextField();
-        jLabel5 = new javax.swing.JLabel();
-        RL1 = new javax.swing.JLabel();
-        RL = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        RL = new javax.swing.JLabel();
+        username = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
+        nama = new javax.swing.JTextField();
+        email = new javax.swing.JTextField();
+        jLabel2 = new javax.swing.JLabel();
+        RL1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         Background = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         Mfile = new javax.swing.JMenu();
         Btnlogout = new javax.swing.JRadioButtonMenuItem();
@@ -58,60 +58,58 @@ public class frameDashboard extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        getContentPane().add(email, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 160, 390, 30));
 
-        nama.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                namaActionPerformed(evt);
-            }
-        });
-        getContentPane().add(nama, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 110, 390, 30));
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel1.setText("FRAME USER");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 280, 120, 40));
+
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setText("Have a nice day, Bro!");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 20, 150, -1));
+
+        RL.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        RL.setForeground(new java.awt.Color(255, 255, 255));
+        RL.setText("Riwayat Login :");
+        getContentPane().add(RL, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 20, 280, -1));
 
         username.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 usernameActionPerformed(evt);
             }
         });
-        getContentPane().add(username, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 60, 390, 30));
-
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setText("Have a nice day, Bro!");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, 150, -1));
-
-        RL1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        RL1.setForeground(new java.awt.Color(253, 253, 253));
-        RL1.setText("@Crudoop 2025");
-        getContentPane().add(RL1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 330, 100, -1));
-
-        RL.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        RL.setForeground(new java.awt.Color(255, 255, 255));
-        RL.setText("Riwayat Login :");
-        getContentPane().add(RL, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 40, 280, -1));
-
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\redmi\\Downloads\\Hell.gif")); // NOI18N
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 80, 190, 160));
-
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(102, 102, 255));
-        jLabel1.setText("FRAME USER");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 300, 120, 40));
-
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(102, 102, 255));
-        jLabel2.setText("FRAME CATEGORY");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 300, 130, 40));
+        getContentPane().add(username, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 40, 390, 30));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(102, 102, 255));
         jLabel3.setText("FRAME PRODUCT");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 300, 130, 40));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 280, 130, 40));
+
+        nama.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                namaActionPerformed(evt);
+            }
+        });
+        getContentPane().add(nama, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 90, 390, 30));
+        getContentPane().add(email, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 140, 390, 30));
+
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(102, 102, 255));
+        jLabel2.setText("FRAME CATEGORY");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 280, 130, 40));
+
+        RL1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        RL1.setForeground(new java.awt.Color(253, 253, 253));
+        RL1.setText("@Crudoop 2025");
+        getContentPane().add(RL1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, 100, -1));
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        Background.setIcon(new javax.swing.ImageIcon("C:\\Users\\redmi\\OneDrive\\Documents\\Pictures\\User desain.png")); // NOI18N
         jPanel1.add(Background, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 360));
+
+        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\redmi\\OneDrive\\Pictures\\Desain Ui CrudOop.gif")); // NOI18N
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 370));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 370));
 
@@ -264,7 +262,7 @@ public class frameDashboard extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField nama;

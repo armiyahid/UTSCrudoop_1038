@@ -235,7 +235,7 @@ public class frameUser extends javax.swing.JFrame {
         jLabel5.setText("Status");
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 290, 95, -1));
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\redmi\\OneDrive\\Documents\\Pictures\\User.png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\redmi\\OneDrive\\Pictures\\3.png")); // NOI18N
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
